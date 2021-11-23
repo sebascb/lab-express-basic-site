@@ -1,5 +1,104 @@
 html,
 body {
-    color: blue;
-    background-color: bisque;
+    font-size: 16px;
+    font-family: sans-serif;  
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;    
+    justify-content: center;
+    background-color:rgba(0, 0, 255, 0.267);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 6rem;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 3.5rem;
+}
+
+.text-home {
+    font-size: 1.5rem;
+    margin-top: 8rem;
+    text-align: center;
+    letter-spacing: 0.6px;
+    line-height: 30px;
+
+}
+
+.text {
+    font-size: 1.5rem;
+    margin-top: 8rem;
+    margin-left: 5.5rem;
+    margin-right: 5rem;
+    letter-spacing: 0.6px;
+    line-height: 40px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 14rem;
+}
+
+article {
+    font-size: 1.6rem;
+}
+
+footer ul {
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+h4 {
+    font-size: 2rem;
+    color: white;
+}
+
+.mail {
+    line-height: 40px;
+    color:rgb(114, 111, 111);
+}
+
+.list {
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.foto {
+    width: 400px;
+    height: auto;
+}
+
+h6 {
+    font-size: 1rem;
+    color: white;
+    margin-top: 0.7rem;
 }
